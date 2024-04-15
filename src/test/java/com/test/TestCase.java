@@ -99,4 +99,8 @@ public class TestCase {
 		String errormsg =home.sendMsg();
 		Assert.assertEquals(errormsg, msg);
 	}
+	public void verifyCast() {
+		// TODO Auto-generated method stub
+
+	}
 }
