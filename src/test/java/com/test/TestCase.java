@@ -96,11 +96,15 @@ public class TestCase {
 		home.sendCityname("Akola");
 		home.sendPhonenNunber("9999999999");
 		home.sendSubmit();
-		String errormsg =home.sendMsg();
+		String errormsg = home.sendMsg();
 		Assert.assertEquals(errormsg, msg);
 	}
-	public void verifyCast() {
-		// TODO Auto-generated method stub
 
+	public void verifyCast() {
+
+	}
+
+	public void lastName() {
+		System.out.println("jj");
 	}
 }
